@@ -19,5 +19,5 @@ Alt-H1
 3. Flex-box.
 
 ## **Ссылка на проект в GitHub Pages**
-* [Путешествие по России] (https://bikteevamadina.github.io/russian-travel/)
+* [Путешествие по России](https://bikteevamadina.github.io/russian-travel/)
 
