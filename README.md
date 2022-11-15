@@ -18,6 +18,6 @@ Alt-H1
 2. Grid-layout.
 3. Flex-box.
 
-## Ссылка на проект в GitHub Pages
-* [Путешествие по России]
+## **Ссылка на проект в GitHub Pages**
+* [Путешествие по России] [https://bikteevamadina.github.io/russian-travel/]
 
