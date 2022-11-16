@@ -9,21 +9,27 @@
   <body class="page">
     <header class="header">
       <img class="header__logo" src="./images/header-logo.svg" alt="Логотип сайта">
-      <div class="header__links">
+      <ul class="header__list-links">
+        <li class="header__link-item">
           <a class="page__link header__lang-link header__lang-link_active" href="#">Ru</a>
-          <a class="page__link header__lang-link" href="#">En</a>
-      </div>
+        </li>
+        <li class="header__link-item">
+          <a class="page__link header__lang-link" lang="en" href="#">En</a>
+        </li>
+      </ul>
     </header>
     <main class="content">
       <section class="lead">
         <h1 class="lead__title">Путешествия по&nbsp;России</h1>
         <p class="lead__subtitle">Настоящая страна не&nbsp;в&nbsp;выпусках новостей,
           а&nbsp;здесь.</p>
-        <img
-          class="lead__image"
-          src="./images/lead-polka.jpg"
-          alt="Картинка вагон поезда с маршрутом">
-        <p class="lead__caption">ваша полка&nbsp;&mdash; верхняя</p>
+        <figure class="lead__figure">
+          <img
+            class="lead__image"
+            src="./images/lead-polka.jpg"
+            alt="Картинка вагон поезда с маршрутом">
+          <p class="lead__caption">ваша полка&nbsp;&mdash; верхняя</p>
+        </figure>
       </section>
       <section class="intro">
         <article class="intro__info">
@@ -121,21 +127,25 @@
             src="./images/place-kosa.jpg"
             alt="Фотография Куршская коса">
           <div class="place__website">
-            <h3 class="place__url-heading">URL</h3>
+            <span class="place__url-heading">url</span>
             <a class="page__link place__link"
               href="http://park-kosa.ru"
-              target="_blank">park-kosa.ru</a>
+              target="_blank"
+              rel="noopener noreferrer">park-kosa.ru
+            </a>
           </div>
           <div class="place__info">
             <p class="place__paragraph">Здесь, посреди лесов и&nbsp;песчаных дюн,
               вы сможете увидеть два водных горизонта&nbsp;&mdash; спокойного Куршского залива
               с&nbsp;одной стороны и&nbsp;подёрнутого рябью волн Балтийского моря
-              с&nbsp;другой. Уникальная природная зона на&nbsp;краю российского анклава.</p>
+              с&nbsp;другой. Уникальная природная зона на&nbsp;краю российского анклава.
+            </p>
             <p class="place__paragraph">На&nbsp;этом Калининградская область не заканчивается.
               Для&nbsp;путешественника и&nbsp;исследователя там&nbsp;же по&nbsp;соседству&nbsp;&mdash; самая западная
               точка России, Балтийская коса,&nbsp;&mdash; и&nbsp;немецкое наследие россыпи небольших
               приморских городов. Атмосфера здешних мест исключает суету, окуная в&nbsp;спокойствие природы
-              и&nbsp;запах&nbsp;стального, прохладного моря.</p>
+              и&nbsp;запах&nbsp;стального, прохладного моря.
+            </p>
           </div>
         </article>
         <article class="place">
@@ -145,10 +155,11 @@
             src="./images/place-kolsky.jpg"
             alt="Фотография полуострв кольский">
           <div class="place__website">
-            <h3 class="place__url-heading">URL</h3>
+            <span class="place__url-heading">url</span>
             <a class="page__link place__link"
             href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
-            target="_blank">National Geographic
+            target="_blank"
+            rel="noopener noreferrer">National Geographic
             </a>
           </div>
           <div class="place__info">
@@ -167,10 +178,11 @@
           <img class="place__image" src="./images/place-altai.jpg"
             alt="Картинка атмосфера Алтая ">
           <div class="place__website">
-            <h3 class="place__url-heading">URL</h3>
+            <span class="place__url-heading">url</span>
             <a class="page__link place__link"
               href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
-              target="_blank">Facebook
+              target="_blank"
+              rel="noopener noreferrer">Facebook
             </a>
           </div>
           <div class="place__info">
@@ -190,10 +202,11 @@
             src="./images/place-winter-baikal.jpg"
             alt="Картинка Байкал зимой">
           <div class="place__website">
-            <h3 class="place__url-heading">URL</h3>
+            <span class="place__url-heading">url</span>
             <a class="page__link place__link"
               href="https://vk.com/baikalmile"
-              target="_blank">https://vk.com/baikalmile</a>
+              target="_blank"
+              rel="noopener noreferrer">https://vk.com/baikalmile</a>
           </div>
           <div class="place__info">
             <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро
@@ -212,10 +225,11 @@
             src="./images/place-karelia.jpg"
             alt="Фотография реки в карельском национальном парке">
           <div class="place__website">
-            <h3 class="place__url-heading">URL</h3>
+            <span class="place__url-heading">url</span>
             <a class="page__link place__link"
               href="http://vodlozero.ru"
-              target="_blank">http://vodlozero.ru</a>
+              target="_blank"
+              rel="noopener noreferrer">http://vodlozero.ru</a>
           </div>
           <div class="place__info">
             <p class="place__paragraph">Сибирь заканчивается не&nbsp;на&nbsp;Урале, а&nbsp;в&nbsp;Карелии:
@@ -233,7 +247,8 @@
         <a
           class="cover__background"
           href="https://stampsy.com/na-elektrichkakh-do-baikala"
-          target="_blank">
+          target="_blank"
+          rel="noopener noreferrer">
           <h2 class="cover__title">До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;</h2>
           <p class="cover__subtitle">По&nbsp;мотивам&nbsp;учебной&nbsp;темы о&nbsp;Транссибе &mdash;&nbsp;путешествие от&nbsp;столицы&nbsp;до&nbsp;Байкала на&nbsp;электричках.</p>
         </a>
@@ -242,35 +257,35 @@
     <footer class="footer">
       <nav class="footer__menu">
         <ul class="footer__list">
-          <li class="footer__row">
+          <li class="footer__item">
             <a
               class="footer__link page__link"
               href="https://yandex.ru/maps"
               target="_blank">Карты
             </a>
           </li>
-          <li class="footer__row">
+          <li class="footer__item">
             <a
               class="footer__link page__link"
               href="https://yandex.ru/pogoda"
               target="_blank">Погода
             </a>
           </li>
-          <li class="footer__row">
+          <li class="footer__item">
             <a
               class="footer__link page__link"
               href="https://rasp.yandex.ru"
               target="_blank">Расписание
             </a>
           </li>
-          <li class="footer__row">
+          <li class="footer__item">
             <a
               class="footer__link page__link"
               href="https://calendar.yandex.ru"
               target="_blank">Календарь
             </a>
           </li>
-          <li class="footer__row">
+          <li class="footer__item">
             <a
               class="footer__link page__link"
               href="https://travel.yandex.ru"
