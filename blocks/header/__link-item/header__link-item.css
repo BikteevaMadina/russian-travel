@@ -6,3 +6,9 @@
 .header__link-item:last-child{
   margin-right: 0;
 }
+
+@media screen and (max-width: 320px) {
+  .header__link-item {
+    margin: 14px 18px 6px 0;
+}
+}

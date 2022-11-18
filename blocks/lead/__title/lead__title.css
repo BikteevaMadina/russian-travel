@@ -14,14 +14,30 @@
 @media screen and (max-width:1024px) {
   .lead__title {
     margin-top: 48px;
-
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 675px) {
+  .lead__title{
+    max-width: 568px;
+    font-size: 70px;
+    line-height: 74px;
+  }
+}
+
+@media screen and (max-width: 492px) {
+  .lead__title {
+    max-width: 400px;
+    font-size: 50px;
+    line-height: 54px;
+  }
+}
+
+@media screen and (max-width: 350px) {
   .lead__title {
     max-width: 288px;
     font-size: 40px;
     line-height: 44px;
   }
 }
+

@@ -13,16 +13,27 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 928px) {
   .place__image {
-    max-width: 340px;
+    max-width: 380px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 790px) {
+  .place__image {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 720px){
+  .place__image {
+    grid-row-start: 3;
+  }
+  }
+
+@media screen and (max-width: 371px) {
   .place__image {
     max-width: 320px;
-    grid-row-start: 3;
     box-sizing: border-box;
   }
 }

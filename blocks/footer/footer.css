@@ -1,8 +1,10 @@
 .footer {
   max-width: 1184px;
+  width: calc(100% - 2 * 48px);
   display: flex;
   justify-content: space-between;
   padding: 92px 0 24px;
+  margin: 0 auto;
 }
 
 
@@ -10,6 +12,7 @@
   .footer {
     max-width: 928px;
     padding: 92px 48px 24px;
+
   }
 }
 
@@ -17,14 +20,25 @@
   .footer {
     max-width: 720px;
     padding: 88px 24px 24px 24px;
+    width: calc(100% - 2 * 24px);
   }
 }
+
+
+@media screen and (max-width: 700px){
+  .footer {
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+  }
+}
+
 
 @media screen and (max-width: 320px) {
   .footer {
     max-width: 186px;
-    flex-direction: column;
     padding: 64px 118px 24px 16px;
     gap: 48px;
+    align-items: flex-start;
   }
 }

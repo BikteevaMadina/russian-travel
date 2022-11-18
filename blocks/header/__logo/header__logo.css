@@ -5,7 +5,16 @@
   object-fit: cover;
 }
 
-@media screen and (max-width: 320px) {
+
+@media screen and (max-width: 485px) {
+  .header__logo {
+    max-width: 164px;
+    max-height: 46px;
+
+  }
+}
+
+@media screen and (max-width: 350px) {
   .header__logo {
     max-width: 142px;
     max-height: 42px;
