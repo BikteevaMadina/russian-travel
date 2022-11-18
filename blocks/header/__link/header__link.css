@@ -1,4 +1,4 @@
-.header__lang-link {
+.header__link {
   color: #FFF;
   font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
@@ -13,7 +13,7 @@
 
 
 @media screen and (max-width: 485px) {
-  .header__lang-link {
+  .header__link {
     font-size: 20px;
     line-height: 24px;
   }
@@ -21,7 +21,7 @@
 
 
 @media screen and (max-width: 320px) {
-  .header__lang-link {
+  .header__link {
     font-size: 18px;
     line-height: 20px;
   }

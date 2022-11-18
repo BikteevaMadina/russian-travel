@@ -1,14 +1,14 @@
-.header__link-item{
+.header__item{
   margin: 18px 18px 6px 0;
   padding: 0;
 }
 
-.header__link-item:last-child{
+.header__item:last-child{
   margin-right: 0;
 }
 
 @media screen and (max-width: 320px) {
-  .header__link-item {
+  .header__item {
     margin: 14px 18px 6px 0;
 }
 }
